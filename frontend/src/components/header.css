@@ -1,0 +1,21 @@
+.header{
+	display: flex;
+	/* height: 10vh; */
+	background-color: inherit;
+	border-bottom: 4px solid  ;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+}
+.header p{
+	font-size: larger;
+	font-weight: bold;
+	text-align: center;
+}
+span{
+	font-weight: bolder;
+	color: rgb(112, 197, 147);
+}
+.header img{
+	width: 10%;
+}

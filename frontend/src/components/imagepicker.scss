@@ -1,0 +1,66 @@
+.IP{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+
+.imagepicker {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border : 3px dashed ;
+	width: 23%;
+	margin-top: 60px;
+  
+	background-color: var(--panel-color);
+	border-radius: 30px;
+  
+	gap: 2rem;
+	color: var(--text-color);
+	font-family: TextFont;
+	font-size: 1.125rem;
+  
+	height: min-content;
+  
+	&-dropzone {
+	  width: 90%;
+	  text-align: center;
+	  padding: 1rem;
+	  border: 3px dashed var(--gray-color);
+	  border-radius: 20px;
+	  color: var(--gray-color);
+	  cursor: pointer;
+	  position: relative;
+  
+	  .selected-image {
+		color: var(--text-color);
+	  }
+  
+	  input {
+		position: absolute;
+		height: 50%;
+		width: 100%;
+		top: 0;
+		left: 0;
+		opacity: 0;
+		z-index: 1;
+	  }
+  
+	  &.drag {
+		background-color: var(--gray-color);
+		border: 3px dashed var(--panel-color);
+		color: var(--panel-color);
+	  }
+	}
+  
+	&-image {
+	  padding-bottom: 10px;
+	  width: 300px;
+	  border-radius: 30px;
+	  object-fit: cover;
+	}
+  }
+  

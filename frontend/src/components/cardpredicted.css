@@ -1,0 +1,19 @@
+.cardP{
+	display: flex;
+	flex-direction: column;
+	border-bottom: 3px solid rgb(112, 197, 147);
+	border-radius: 20px;
+	width: 25%;
+	justify-content: center;
+	align-items: center;
+}
+
+.cardP p {
+	font-size: larger;
+	font-weight: bolder;
+}
+
+.predicted{
+	font-size: larger;
+	font-weight: bolder;
+}
